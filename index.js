@@ -11,7 +11,7 @@ var space = ' '
 var lineFeed = '\n'
 var dash = '-'
 var colon = ':'
-var verticalBar = ' '
+var verticalBar = '|'
 
 var x = 0
 var C = 67
@@ -129,7 +129,7 @@ function markdownTable(table, options) {
         )
       : 1
 
-    cell = before + repeat(dash, size) + after
+    cell = repeat(dash, size)
 
     if (alignDelimiters === true) {
       size = before.length + size + after.length
