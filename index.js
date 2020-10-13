@@ -11,7 +11,7 @@ var space = ' '
 var lineFeed = '\n'
 var dash = '-'
 var colon = ':'
-var verticalBar = '|'
+var verticalBar = ' '
 
 var x = 0
 var C = 67
